@@ -1,8 +1,44 @@
 body {
-    background: black;
-    color: white;
+    background: lightgrey;
+    font-family:Roboto, sans-serif ;
+    color: black;
+    font-size: 1.2em;
+    line-height: 1.3;
+    text-align: left;
+    background-image:
+}
+
+
+a {
+    color: black;
+}
+
+h2 {
+    background-color: gold;
+
 }
 
 h1 {
-    color: #28245e;
+    background-color: gold;
+    font-size: 1em;
+    background-image:
 }
+
+footer {
+    font-family: "Wingdings";
+}
+
+li {
+    max-width: 375px;
+}
+
+image {
+    max-width: 100px;
+}
+header {
+    font-size: 20px;
+}
+text {
+    text-align: left;
+}
+
