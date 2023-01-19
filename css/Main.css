@@ -1,44 +1,64 @@
 body {
-    background: lightgrey;
     font-family:Roboto, sans-serif ;
-    color: black;
+    color: white;
     font-size: 1.2em;
     line-height: 1.3;
-    text-align: left;
-    background-image:
+    text-align: -moz-left;
+    background-image:url(../images/fond_color.jpg)
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 a {
-    color: black;
+    color: white;
 }
 
-h2 {
-    background-color: gold;
-
-}
 
 h1 {
-    background-color: gold;
     font-size: 1em;
-    background-image:
+    color: lightskyblue;
 }
 
-footer {
-    font-family: "Wingdings";
+
+h2 {
+    color: lightskyblue;
 }
+
+
+footer {
+    font-family: "Wingdings", serif;
+}
+
 
 li {
     max-width: 375px;
 }
 
-image {
-    max-width: 100px;
-}
+
 header {
     font-size: 20px;
 }
-text {
-    text-align: left;
+
+.cape {
+    position: absolute;
+    top: 800px;
+    width: 200px;
+    right: 60px;
 }
 
+.boot {
+    position: absolute;
+    top: 950px;
+    width: 200px;
+    right: 300px;
+}
+
+.greaves {
+    position: absolute;
+    top: 320px;
+    width: 200px;
+    right: 1px;
+}
